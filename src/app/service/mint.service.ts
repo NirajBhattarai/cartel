@@ -8,6 +8,7 @@ const rpcurl = 'wss://rinkeby.infura.io/ws/v3/0c4614c66b244dc9a975984b0cf0934a';
 const remoteweb3 = new Web3(rpcurl);
 const NFTAddress = '0x183fFA95BEb0E1d2630CA57C6F1151C58bBA317F';
 const amountMultiply = 80000000000000000;
+
 const TokenAbis = [
   {
     inputs: [
