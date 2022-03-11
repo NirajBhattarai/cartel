@@ -1,0 +1,180 @@
+Your global Angular CLI version (13.2.4) is greater than your local version (11.2.15). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names         |      Size
+vendor.js           | vendor        |   6.88 MB
+main.js             | main          |   3.01 MB
+polyfills.js        | polyfills     | 187.79 kB
+runtime.js          | runtime       |   6.15 kB
+styles.css          | styles        |  39 bytes
+
+| Initial Total |  10.07 MB
+
+Build at: 2022-02-19T21:44:52.824Z - Hash: df9853a7b3fadf8ce584 - Time: 14226ms
+
+Warning: /home/ubuntu/boreddogz/src/app/service/mint.service.ts depends on 'web3'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/src/app/service/mint.service.ts depends on '@walletconnect/qrcode-modal'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/iso-crypto/dist/esm/index.js depends on '@walletconnect/encoding'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/core/dist/esm/index.js depends on '@walletconnect/socket-transport'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/browser-utils/dist/esm/browser.js depends on '@walletconnect/window-metadata'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/utils/dist/esm/encoding.js depends on 'bn.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/utils/dist/esm/ethereum.js depends on 'js-sha3'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/utils/dist/esm/url.js depends on 'query-string'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/crypto/dist/esm/lib/browser.js depends on '@walletconnect/environment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@ethersproject/signing-key/lib.esm/elliptic.js depends on 'hash.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+Your global Angular CLI version (13.2.4) is greater than your local version (11.2.15). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names         |      Size
+vendor.js           | vendor        |   6.88 MB
+main.js             | main          |   3.01 MB
+polyfills.js        | polyfills     | 187.79 kB
+runtime.js          | runtime       |   6.15 kB
+styles.css          | styles        |  39 bytes
+
+| Initial Total |  10.07 MB
+
+Build at: 2022-02-20T00:44:30.258Z - Hash: df9853a7b3fadf8ce584 - Time: 14045ms
+
+Warning: /home/ubuntu/boreddogz/src/app/service/mint.service.ts depends on 'web3'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/src/app/service/mint.service.ts depends on '@walletconnect/qrcode-modal'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/iso-crypto/dist/esm/index.js depends on '@walletconnect/encoding'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/core/dist/esm/index.js depends on '@walletconnect/socket-transport'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/browser-utils/dist/esm/browser.js depends on '@walletconnect/window-metadata'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/utils/dist/esm/encoding.js depends on 'bn.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/utils/dist/esm/ethereum.js depends on 'js-sha3'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/utils/dist/esm/url.js depends on 'query-string'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/crypto/dist/esm/lib/browser.js depends on '@walletconnect/environment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@ethersproject/signing-key/lib.esm/elliptic.js depends on 'hash.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+Your global Angular CLI version (13.2.4) is greater than your local version (11.2.15). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names         |      Size
+vendor.js           | vendor        |   6.88 MB
+main.js             | main          |   3.01 MB
+polyfills.js        | polyfills     | 187.79 kB
+runtime.js          | runtime       |   6.15 kB
+styles.css          | styles        |  39 bytes
+
+| Initial Total |  10.07 MB
+
+Build at: 2022-02-20T10:06:16.028Z - Hash: df9853a7b3fadf8ce584 - Time: 14031ms
+
+Warning: /home/ubuntu/boreddogz/src/app/service/mint.service.ts depends on 'web3'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/src/app/service/mint.service.ts depends on '@walletconnect/qrcode-modal'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/iso-crypto/dist/esm/index.js depends on '@walletconnect/encoding'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/core/dist/esm/index.js depends on '@walletconnect/socket-transport'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/browser-utils/dist/esm/browser.js depends on '@walletconnect/window-metadata'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/utils/dist/esm/encoding.js depends on 'bn.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/utils/dist/esm/ethereum.js depends on 'js-sha3'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/utils/dist/esm/url.js depends on 'query-string'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@walletconnect/crypto/dist/esm/lib/browser.js depends on '@walletconnect/environment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ubuntu/boreddogz/node_modules/@ethersproject/signing-key/lib.esm/elliptic.js depends on 'hash.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
