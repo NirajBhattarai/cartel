@@ -1,4 +1,4 @@
-$imageWidth: 50px;
+$imageWidth: 90px;
 
 :host {
   .gallerySection {
@@ -20,7 +20,7 @@ $imageWidth: 50px;
           height: $imageWidth;
           width: $imageWidth;
           max-width: $imageWidth;
-          margin-right: 10px;
+          margin-right: 5px;
         }
 
         span {
