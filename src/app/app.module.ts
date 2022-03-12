@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { PagesModule } from './pages/pages.module';
+import { TermsAndConditionComponent } from './terms-and-condition/terms-and-condition.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    TermsAndConditionComponent
   ],
   imports: [
     BrowserModule,

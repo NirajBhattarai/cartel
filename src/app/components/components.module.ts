@@ -5,18 +5,21 @@ import { BasicIntroComponent } from './basic-intro/basic-intro.component';
 import { HomeIntroComponent } from './home-intro/home-intro.component';
 import { RoadmapComponent } from './roadmap/roadmap.component';
 import { MintSectionComponent } from './mint-section/mint-section.component';
+import { TeamComponent } from './team/team.component';
 
 const COMPONENTS = [
   AboutBarkComponent,
   BasicIntroComponent,
   HomeIntroComponent,
   RoadmapComponent,
-  MintSectionComponent
+  MintSectionComponent,
+  TeamComponent
 ]
 
 @NgModule({
   declarations: [
-    ...COMPONENTS
+    ...COMPONENTS,
+    TeamComponent
   ],
   imports: [
     CommonModule

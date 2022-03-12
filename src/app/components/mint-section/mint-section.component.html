@@ -1,54 +1,9 @@
-<!-- <section class="mint-wrapper" id="mint-section">
-    <h1>MINT</h1>
-    <div class="mint-box">
-        <form>
-            <div class="balance">
-                <h3>{{total}} NFTS</h3>
-            </div>
-            <div class="input-wrap">
-                <span>ETH BALANCE</span>
-                <span>ETH</span>
-            </div>
-            <div class="input-wrap">
-                <div class="amount">
-                    <span>AMOUNT</span>
-                    <div>
-                        <button class="inc-dec-btn" type="button" (click)="minus()">-</button>
-                        <input type="number" value="{{inputValue}}" (input)="onValueChange($event.target.value)" min="{{min}}" max="{{max}}">
-                        <button class="inc-dec-btn" type="button" (click)="plus()">+</button>
-                    </div>
-                    <button type="button" class="custom-button max-btn" (click)="getMax()">MAX</button>
-                </div>
-            </div>
-            <div class="input-wrap">
-                <span>TOTAL PRICE</span>
-                <span>{{totalPrice}}</span>
-            </div>
-            <div *ngIf="isConnected; else connect">
-                <button class="custom-button" type="button" (click) = "mint()">BUY NOW</button>  
-            </div>
-            <ng-template #connect>
-                <button class="custom-button"  type="button" (click)="connectToMetaMask()">Connect Wallet</button>
-              </ng-template>
-            <div class="progress">
-                <div class="progress-info">
-                    <span>PROGRESS</span>
-                    <span>{{progress}}%</span>
-                </div>
-                <div class="progress-wrapper">
-                    <div class="progress-bar" [style.width.%]="progress"></div>
-                </div>
-            </div>
-        </form>
-    </div>
-</section> -->
-
-<section class="minting-section">
+<section id="cartel" class="minting-section">
     <div class="container">
         <div class="minting__container">
             <div class="section-title">
-                <h2>Minting</h2>
-                <p>To start minting please Connect your wallet, all NFTs are random</p>
+                <h2>WELCOME TO THE CLUB</h2>
+                <p>When you buy a Cartel NFT, you’re not simply buying a piece of digital art or a probably-rare piece of art. You are gaining membership access to a club whose benefits and offerings will increase over time. Your Cartel NFT can serve as your digital identity, and open digital doors for you.</p>
             </div>
             <div class="minting__connect">
                 <div class="minting__qty">

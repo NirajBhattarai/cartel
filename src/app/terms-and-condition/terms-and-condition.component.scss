@@ -1,0 +1,18 @@
+.section-title{
+    margin-top: 10rem;
+    .heading{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .paragraph{
+        line-height: 1rem;
+    }
+    .orderList{
+        list-style-type: lower-roman;
+        li{
+            margin-left: 3rem;
+            margin-bottom: 2rem;
+            line-height: 2rem;
+        }
+    }
+}
