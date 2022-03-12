@@ -7,6 +7,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { PagesModule } from './pages/pages.module';
 import { TermsAndConditionComponent } from './terms-and-condition/terms-and-condition.component';
+import { LightboxModule } from 'ngx-lightbox';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { TermsAndConditionComponent } from './terms-and-condition/terms-and-cond
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    PagesModule
+    PagesModule,
+    LightboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

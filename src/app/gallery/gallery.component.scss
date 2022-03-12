@@ -1,0 +1,38 @@
+$imageWidth: 50px;
+
+:host {
+  .gallerySection {
+    .section-title {
+      margin-top: 140px;
+    }
+
+    .gallery__container {
+      margin-top: 20px;
+
+      .gallery__item {
+        position: relative;
+        display: inline;
+        height: $imageWidth;
+        width: $imageWidth;
+        cursor: pointer;
+
+        img {
+          height: $imageWidth;
+          width: $imageWidth;
+          max-width: $imageWidth;
+          margin-right: 10px;
+        }
+
+        span {
+          min-width: 18px;
+          position: absolute;
+          left: 0;
+          color: #fff;
+          font-size: 14px;
+          background-color: #0000009e;
+        }
+      }
+    }
+  }
+
+}
