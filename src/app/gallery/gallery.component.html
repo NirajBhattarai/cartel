@@ -3,11 +3,20 @@
     <div class="section-title">
       <h2>Gallery</h2>
     </div>
-    <div class="gallery__container">
+    <div
+      class="search-results"
+      infiniteScroll
+      [infiniteScrollDistance]="2"
+      [infiniteScrollThrottle]="50"
+      (scrolled)="onScroll()"
+    >
+      <div class="gallery__container">
       <div class="gallery__item" *ngFor="let x of imageArray;let i = index">
         <img applazyload="" alt="img" class="gallery_image" [src]="x.src" (click)="open(i)" />
         <span class="gallery__image__caption">{{i+1}}</span>
       </div>
     </div>
+    </div>
+    
   </div>
 </section>
