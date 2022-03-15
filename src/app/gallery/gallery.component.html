@@ -5,7 +5,7 @@
     </div>
     <div class="gallery__container">
       <div class="gallery__item" *ngFor="let x of imageArray;let i = index">
-        <img applazyload="" alt="img" class="gallery_image" [src]="x.src" (click)="open(i)" />
+        <img applazyload="" alt="img" class="gallery_image" [src]="x.thumb" (click)="open(i)" />
         <span class="gallery__image__caption">{{i+1}}</span>
       </div>
     </div>

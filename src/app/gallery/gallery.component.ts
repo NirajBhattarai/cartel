@@ -15,7 +15,7 @@ export class GalleryComponent implements OnInit {
     for (let i = 1; i <= 1000; i++) {
       const src = 'assets/img/gallery/' + i + '.png';
       const caption = 'Full Image';
-      const thumb = 'assets/img/gallery/' + i + '.png';
+      const thumb = 'assets/img/gallery/thumnail/' + i + '.jpg';
       const album = {
         src: src,
         caption: caption,
