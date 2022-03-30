@@ -16,17 +16,27 @@
       <div class="footer__social social-icons">
         <ul>
           <li>
-            <a href="https://www.youtube.com/channel/UCzx9rOHO2f1F9IItGcsg0Gg">
+            <a
+              href="#"
+              (click)="
+                goToLink(
+                  'https://www.youtube.com/channel/UCzx9rOHO2f1F9IItGcsg0Gg'
+                )
+              "
+            >
               <i class="icon-youtube"></i>
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/carteldonsclub">
+            <a
+              href="#"
+              (click)="goToLink('https://twitter.com/carteldonsclub')"
+            >
               <i class="icon-twitter"></i>
             </a>
           </li>
           <li>
-            <a href="https://discord.gg/qsCsDrAk">
+            <a href="#" (click)="goToLink('https://discord.gg/qsCsDrAk')">
               <i class="icon-discord"></i>
             </a>
           </li>

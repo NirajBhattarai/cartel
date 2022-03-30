@@ -25,4 +25,8 @@ export class HeaderComponent implements OnInit {
     this.isConnected = this.mintService.checkWalletConnected();
   }
 
+  goToLink(url: string){
+    window.open(url, "_blank");
+}
+
 }

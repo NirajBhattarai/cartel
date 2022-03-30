@@ -3,13 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home-intro',
   templateUrl: './home-intro.component.html',
-  styleUrls: ['./home-intro.component.scss']
+  styleUrls: ['./home-intro.component.scss'],
 })
 export class HomeIntroComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  goToLink(url: string) {
+    window.open(url, '_blank');
   }
-
 }
